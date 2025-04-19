@@ -19,6 +19,9 @@ export default function page() {
           </>
         );
       })}
+      <div className="bg-black text-white p-5 rounded-3xl w-fit">
+        <Link href={"/story/data"}>Data Page</Link>
+      </div>
     </div>
   );
 }
