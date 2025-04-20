@@ -46,19 +46,28 @@ export default function navabar() {
                 Story
               </Link>
             </li>
+
+            <li>
+              <Link
+                href={"/login"}
+                className="text-gray-700 hover:text-blue-600"
+              >
+                Login
+              </Link>
+            </li>
           </ul>
-          <div class="md:hidden">
+          <div className="md:hidden">
             <button
               id="menu-btn"
-              class="text-2xl text-gray-700 focus:outline-none"
+              className="text-2xl text-gray-700 focus:outline-none"
             >
               &#9776;
             </button>
           </div>
         </div>
 
-        {/* <div id="mobile-menu" class="md:hidden hidden px-4 pt-2 pb-4">
-          <a href="#" class="block text-gray-700 py-2 hover:text-blue-600">
+        {/* <div id="mobile-menu" className="md:hidden hidden px-4 pt-2 pb-4">
+          <a href="#" className="block text-gray-700 py-2 hover:text-blue-600">
             Home
           </a>
           <a href="#" class="block text-gray-700 py-2 hover:text-blue-600">

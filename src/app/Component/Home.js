@@ -66,7 +66,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <Image src={aminul} />
+      <Image src={aminul} placeholder="blur" />
     </div>
   );
 }

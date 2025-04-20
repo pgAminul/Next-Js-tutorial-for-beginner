@@ -26,7 +26,7 @@ Already Done
 
 # Json Data Fetching ✅
 
-# Image Optimization
+# Image Optimization✅
 
 # Font Optimization ✅
 
@@ -35,3 +35,7 @@ Already Done
 # Daynamic MetaData
 
 # Progressive Rendering
+
+# Next Auth
+
+url --- http://localhost:3000/api/auth/callback/github
